@@ -37,8 +37,8 @@ input, textarea { font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif; }
 .one_half, .one_third, .one_fourth, .three_fourth, .two_third, .one_fifth, .two_fifth, .three_fifth, .four_fifth { margin-bottom: 20px; float:left; margin-right: 4%; position:relative; }
 
 .one_half { width:48%; }
-.one_third { width:35%; }
-.two_third { width:65%; }
+.one_third { width:30%; }
+.two_third { width:70%; }
 .one_fourth { width:22%; }
 .three_fourth { width:74%; }
 .one_fifth { width:16.8%; }
