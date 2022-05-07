@@ -3,7 +3,7 @@
 /*========================*/
 
 html, body, div, span, h1, h2, h3, h4, h5, h6, p, blockquote, img, strong, ol, ul, li, form, input { margin: 0; padding: 0; border: 0; vertical-align: baseline; }
-ul { list-style:none; list-style-position:outside; }
+ul { list-style:none; list-style-position:outside; margin:20px}
 
 li{margin: 20px 0;}
 
