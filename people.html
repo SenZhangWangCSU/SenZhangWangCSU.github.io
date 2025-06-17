@@ -67,26 +67,47 @@
 
                 <h3><font size="5"><font color="#6E402E"><b>Graduate Students</b></font></font></h3>
 				<ul class="list square">  
-					<li style="line-height: 35px"> Hao Yan, MS student 2021 - 2023, PhD student, 2023 -   </li>
-                        <!-- <img src="images/yh.jpg" alt="yh" width="350"  /> -->
-                        <!-- <img src="images/yh2.jpg" alt="yh2" width="350"  /> -->
-					<li style="line-height: 35px"> Renzhi Wang, MS student, 2022 -   </li>
-                        <!-- <img src="images/wrz.jpg" alt="wrz" width="350"  /> -->
-					<li style="line-height: 35px"> Shunyang Zhang, MS student, 2022 -   </li>
-					<li style="line-height: 35px"> Jun Yin, MS student, 2022 -   </li>	
-                        <!-- <img src="images/yj.jpg" alt="yj" width="350"  /> -->
+                    <!---神人--->
+					<li style="line-height: 35px">
+                        <span class="toggle" data-target="img1" style="color:black; cursor:pointer;">H</span>ao
+                        <span class="toggle" data-target="img2" style="color:black; cursor:pointer;">Y</span>an, MS student 2021 - 2023, PhD student, 2023 -
+                    </li>
+                    <img id="img1" src="images/yh.jpg" alt="yh" style="display:none; width:350px;" />
+                    <img id="img2" src="images/yh3.jpg" alt="yh3" style="display:none; width:350px;" />
+                    <script>
+                    document.querySelectorAll('.toggle').forEach(el => {
+                        el.addEventListener('click', () => {
+                        const img = document.getElementById(el.dataset.target);
+                        img.style.display = (img.style.display === 'none' ? 'block' : 'none');
+                        });
+                    });
+                    </script>
+                    <!--非神人-->
+                    <li style="line-height: 35px"> Ming Chen, PhD student, 2024 -   </li>
 					<li style="line-height: 35px"> Ruochen Liu, MS student, 2023 -   </li>
 					<li style="line-height: 35px"> Zichen Wang, MS student, 2023 -   </li>
 					<li style="line-height: 35px"> Ronghui Xu, MS student, 2023 -   </li>
 					<li style="line-height: 35px"> Zhigang Yu, MS student, 2024 -   </li>
 					<li style="line-height: 35px"> Keyi Yang, MS student, 2024 -   </li>
 					<li style="line-height: 35px"> Mingjun Cao, MS student, 2024 -   </li>
+                    <li style="line-height: 35px"> Yuanbo Zhao, MS student, 2025 -   </li>
+                    <li style="line-height: 35px"> Qi He, MS student, 2025 -   </li>
+                    <li style="line-height: 35px"> Anqi Zhang, MS student, 2025 -   </li>
+                    <li style="line-height: 35px"> lzlw, MS student, 2025 -   </li>   
                 </ul>
 
                 <div class="divider line"></div>
+			<h3><font size="5"><font color="#6E402E"><b>Visiting </b></font></font></h3>
+                <ul class="list square">
+                    <li style="line-height: 35px"> Yang Hu, currently a PhD Student in Guizhou University, 2024 - </li>
+                </ul>
 				
+			<div class="divider line"></div>
                 <h3><font size="5"><font color="#6E402E"><b>Alumni</b></font></font></h3>
                 <ul class="list square">
+            <li style="line-height: 35px"> Renzhi Wang, 2022 - 2025, currently working in Software Development Center of Agricultural Bank of China </li>
+            <li style="line-height: 35px"> Jun Yin, 2022 - 2025, currently a PhD student in Department of Data Science and Artificial Intelligence at The Hong Kong Polytechnic University</li>
+            <li style="line-height: 35px"> Shunyang Zhang, 2022 - 2025, to be determined</li>
 			<li style="line-height: 35px"> Jiangnan Xia, 2021 - 2024, currently a PhD student in Department of Computer Science at The University of Georgia</li>
 			<li style="line-height: 35px"> Yandi Lun, 2021 - 2024, currently working in Meituan</li>
 			<li style="line-height: 35px"> Sen Zhang, 2020 - 2023, currently working in Anhui Brainware Chang'an Electronics Company</li>
@@ -104,6 +125,8 @@
 
                 <h3><font size="5"><font color="#6E402E"><b>After-research</b></font></font></h3>
                 <ul class="list square">
+            <img src="images/all_v3.jpg" alt="实验室合影" width="900"  />
+			<img src="images/grad_22.jpg" alt="毕业生合影" width="900"  />
 		    <img src="images/all_v2.jpg" alt="202406" width="900"  />
 			<img src="images/csu_gate.png" alt="csu_gate" width="900"  />
 			<img src="images/lovecsu.png" alt="lovecsu" width="900"  />
