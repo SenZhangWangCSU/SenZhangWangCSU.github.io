@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>BD4UI | 实验室相册</title>
+    <meta
+      name="description"
+      content="BD4UI 实验室相册页，集中展示实验室合照与活动照片。"
+    >
+    <link rel="alternate" hreflang="zh-CN" href="gallery.html">
+    <link rel="alternate" hreflang="en" href="gallery-en.html">
+    <link rel="icon" type="image/svg+xml" href="assets/brand/bd4ui-logo.svg">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body id="top">
+    <header class="site-header">
+      <a class="brand" href="index.html" aria-label="BD4UI homepage">
+        <span class="brand-mark">
+          <img src="assets/brand/bd4ui-logo.svg" alt="Big Data for Urban Intelligence Lab 标志">
+        </span>
+        <span class="brand-text">
+          <strong>BD4UI</strong>
+          <small>Central South University</small>
+        </span>
+      </a>
+
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="site-nav" id="site-nav" aria-label="主导航">
+        <a href="index.html">主页</a>
+        <a href="#group">合照</a>
+        <a href="#moments">活动照片</a>
+      </nav>
+
+      <div class="header-actions">
+        <button
+          class="theme-toggle"
+          type="button"
+          aria-label="切换主题"
+          aria-pressed="false"
+          data-light-label="浅色"
+          data-dark-label="深色"
+        >
+          <span class="theme-toggle-icon" aria-hidden="true"></span>
+          <span class="theme-toggle-text">浅色</span>
+        </button>
+
+        <div class="language-switch" aria-label="语言切换">
+          <span>中文</span>
+          <a href="gallery-en.html">EN</a>
+        </div>
+      </div>
+    </header>
+
+    <main class="gallery-shell">
+      <section class="gallery-section" id="group">
+        <div class="section-heading">
+          <p class="eyebrow">Group Photos</p>
+          <h2>实验室合照</h2>
+        </div>
+        <div class="gallery-grid">
+          <article class="gallery-card"><img class="gallery-photo" src="assets/gallery/all_v1.jpg" alt="实验室合照 1"></article>
+          <article class="gallery-card"><img class="gallery-photo" src="assets/gallery/all_v2.jpg" alt="实验室合照 2"></article>
+          <article class="gallery-card"><img class="gallery-photo" src="assets/gallery/all_v3.jpg" alt="实验室合照 3"></article>
+          <article class="gallery-card"><img class="gallery-photo" src="assets/gallery/all_v4.jpg" alt="实验室合照 4"></article>
+          <article class="gallery-card"><img class="gallery-photo" src="assets/gallery/grad_22.jpg" alt="课题组合照"></article>
+        </div>
+      </section>
+
+      <section class="gallery-section" id="moments">
+        <div class="section-heading">
+          <p class="eyebrow">Moments</p>
+          <h2>活动照片</h2>
+        </div>
+        <div class="gallery-grid">
+          <article class="gallery-card"><img class="gallery-photo" src="assets/gallery/21.jpg" alt="竞赛项目照片"></article>
+          <article class="gallery-card"><img class="gallery-photo" src="assets/gallery/2026_2.jpg" alt="2026活动照片"></article>
+          <article class="gallery-card"><img class="gallery-photo" src="assets/gallery/nuaa_2.jpg" alt="学术汇报照片"></article>
+          <article class="gallery-card"><img class="gallery-photo" src="assets/gallery/nuaa_1.jpg" alt="会议交流照片"></article>
+          <article class="gallery-card"><img class="gallery-photo" src="assets/gallery/csu_gate.png" alt="校园照片"></article>
+          <article class="gallery-card"><img class="gallery-photo" src="assets/gallery/climbing.jpg" alt="团队活动照片"></article>
+          <article class="gallery-card"><img class="gallery-photo" src="assets/gallery/lovecsu.png" alt="校园与日常照片"></article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p><span class="footer-update">数据更新时间：<time datetime="2026-06-29">2026年6月29日</time></span></p>
+      <a href="#top">返回顶部</a>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
